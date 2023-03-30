@@ -7,9 +7,11 @@ request.open('GET', url, true);
 request.onload = function() {
 
   let data=JSON.parse(this.response);
+  // confirm API server is okay
    if(request.status >=200 && request.status < 400 ) {
    
- $('#advice').text(data["slip"].advice);
+ // $('#advice').text(data["slip"].advice);
+ $('#advice').text(data.slip.advice);
 }
 
 };

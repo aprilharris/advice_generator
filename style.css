@@ -45,7 +45,7 @@ color: #fff;
 
 .speech-bubble {
 	position: relative;
-	background: #ea5455;
+	background: #ad0000;
 	border-radius: .4em;
 }
 
@@ -57,7 +57,7 @@ color: #fff;
 	width: 0;
 	height: 0;
 	border: 44px solid transparent;
-	border-top-color: #ea5455;
+	border-top-color: #ad0000;
 	border-bottom: 0;
 	border-left: 0;
 	margin-left: -22px;
