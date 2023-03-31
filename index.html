@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS ANIMATION -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 <!--   GOOGLE FONTS - OPTIONAL -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +20,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 <!--   CUSTOM CSS -->
   <link rel="stylesheet" href="style.css" />
-  <title>Random Advice Generator</title>
+  <title>Random Advice Generator v2</title>
 </head>
 <body>
   <header id="top" class="d-flex align-items-center">
-    <div class="container text-center p-5">
-    <h1 class="display-1">Random Advice Generator</h1>
-      <p class="p-3">A random piece of advice.<br/>Powered by the <a class="link-light" href="https://api.adviceslip.com/" target="_blank" rel="noopenner noreferrer">Advice Slip API</a></p>
-      <p>Refresh the page for a new slip of advice.</p>
+    <div class="container text-center p-3">
+    <h1 class="display-1 fw-bold">Digital Fortune Cookie</h1>
+            <h3 class=" py-5">Click the cookie to generate today's fortune!<br/> Visit tomorrow for a new piece of advice!</h3>
+
+      <p class="text-white-50">This is a revised version of the <a class="link-opacity-60" href="https://advicegeneratorv1.aprilnyot.repl.co/" target="_blank" rel="noopenner noreferrer">Advice Generator Project</a>.<br/>Powered by the <a class="link-opacity-60" href="https://api.adviceslip.com/" target="_blank" rel="noopenner noreferrer">Advice Slip API</a></p>
+      
     </div>
   </header>
 <main>
@@ -34,7 +38,7 @@
 		<p id="advice"  class="speech-bubble"></p>
         <div class='d-flex justify-content-center'>
           <div class="align-self-end">
-      <img src='fortune-cookie.png' class='img-fluid' alt='fortune cookie' />
+      <img src='fortune-cookie.png' class='img-fluid cookie animate__animated animate__fadeInUpBig' alt='fortune cookie' />
           </div>
 	</div>
     </div>
@@ -43,11 +47,8 @@
     <div class="container text-center p-4">
 <!--       ATTENTION AOT STUDENTS!:
       REPLACE [SEMESTER] & [YEAR] PLACEHOLDERS WITH YOUR CURRENT SEMESTER & YEAR -->
-<p>Built by [STUDENT NAME].</p>
-  <p>[SEMESTER][YEAR]<br/>
-      Tech Flex Leaders<br/>
-      Advanced Web Development<br/>
-      Introduction to APIs</p>
+<p>Built with ❤️ by <a href="https://aprilharris.co/" target="_blank" rel="noopenner noreferrer">april</a>.</p>
+  <p>&copy; 2023 - All rights reserved.</p>
       <a class="text-light" href="#top">Return to Top</a>
     </div>
   </footer>

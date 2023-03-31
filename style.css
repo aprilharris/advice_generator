@@ -10,17 +10,17 @@ html {
 }
 
 body {
-  background-color: #F9F5EB;
+  background-color: #f9f5ff;
 }
 
 header {
-  min-height: 35vh;
-  background-color: #002B5B;
-  color: #F9F5EB;
+  min-height: 30vh;
+  background-color: #43005c;
+  color: white;
 }
 
 main {
-  min-height: 75vh;
+  min-height: 20vh;
 }
 
 
@@ -39,13 +39,13 @@ padding:100px 20px;
 text-align: center;
 margin-top: 50px;
 font-size: 2.5rem;
-color: #fff;
+color: white;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .speech-bubble {
 	position: relative;
-	background: #ad0000;
+	background: #11b08f;
 	border-radius: .4em;
 }
 
@@ -57,15 +57,19 @@ color: #fff;
 	width: 0;
 	height: 0;
 	border: 44px solid transparent;
-	border-top-color: #ad0000;
+	border-top-color: #11b08f;
 	border-bottom: 0;
 	border-left: 0;
 	margin-left: -22px;
 	margin-bottom: -44px;
 }
 
+img.cookie {
+  cursor: pointer;
+}
+
 footer {
-  color: #F9F5EB;
-  background-color: #002B5B;
+  color: white;
+  background-color: #43005c;
 }
 
